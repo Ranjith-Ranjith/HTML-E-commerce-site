@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<style>
+body{
+background:url("ttt.jpg")no-repeat center center/cover;
+}
+</style>
+<body>
+<div>
+<h3><center>REGISTRATION FORM</center></h3>
+
+
+
+ <form>
+<table align="center" cellpadding = "10">
+<select your skin product type>
+<tr>
+<td>SKIN PRODUCTS</td>
+<td>
+<select name="Skin" id="Skin">
+<option value="-1">Select Your skin type</option>
+<option value="1">orange-honey for rough skin types</option>
+<option value="2">honey-aloevera for dry skin types</option>
+<option value="3">rose petals-aloevera for oily skin type</option>
+<option value="4">aloevera products</option>
+<option value="5">neem products</option>
+<option value="6">ayurveda - neem products</option>
+</td>
+</select>
+</tr>
+ 
+<! First Name >
+<tr>
+<label><td>FIRST NAME</td></label>
+<td><input type="text" name="First_Name" maxlength="30"/>
+(Max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<! Last Name>
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+(Max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+
+ 
+<! Email Id >
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+ 
+<! Mobile Number >
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" Maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+ 
+
+ 
+<! Address >
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<! City >
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+(Max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<! Pin Code >
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+ 
+<! State>
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+(Max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<! Country >
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+</tr>
+ 
+<select your payment option>
+<tr>
+<td>PAYMENT PROCESS</td>
+<td>
+<select name="Skin" id="Skin">
+<option value="-1">Select Your payment option</option>
+<option value="1">Cash On Delivery(COD)</option>
+<option value="2">Debit Card</option>
+<option value="3">Credit Card</option>
+<option value="4">Net Banking</option>
+<option value="5">UPI Transactions</option>
+<option value="6">EMI</option>
+</td>
+</select>
+</tr>
+ 
+
+ 
+<! Submit and Reset >
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit" onclick="myFunction()" >
+<input type="reset" value="Reset" onclick="reset()">
+</td>
+</tr>
+</table>
+</form> 
+
+<script>
+function myFunction() 
+{
+  alert("The form was submitted");
+}
+function reset()
+{
+ alert("Form reset");
+}
+</script>
+</div>
+ 
+</body>
+</html>
